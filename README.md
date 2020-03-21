@@ -1,3 +1,8 @@
 # iWildCam
 ![image](https://github.com/Lexie88rus/iWildCam/raw/master/assets/cover_image.jpg)
 Repository contains code for Kaggle iWildCam competition
+
+## Useful Resources:
+Some papers and github repos you may find helpful for the competition:
+1. [Efficient Method for Categorize Animals in the Wild](https://arxiv.org/pdf/1907.13037v1.pdf):  We transfer the state-of-the-art ImagaNet pretrained models to the problem. To improve the generalization and robustness of the model, we utilize efficient image augmentation and regularization strategies, like cutout, mixup and label-smoothing. Finally, we use ensemble learning to increase the performance of the model. [Github repo](https://github.com/Walleclipse/iWildCam_2019_FGVC6)
+2. [Animal Classification System: A Block Based Approach](https://arxiv.org/pdf/1609.01829v1.pdf): In this work, we propose a method for the classification of animal in images. Initially, a graph cut based method is used to perform segmentation in order to eliminate the background from the given image. The segmented animal images are partitioned in to number of blocks and then the color texture moments are extracted from different blocks. Probabilistic neural network and K-nearest neighbors are considered here for classification. To corroborate the efficacy of the proposed method, an experiment was conducted on our own data set of 25 classes of animals, which consisted of 4000 sample images. The experiment was conducted by picking images randomly from the database to study the effect of classification accuracy, and the results show that the K-nearest neighbors classifier achieves good performance.
